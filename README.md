@@ -29,6 +29,6 @@
 
 ### Documentation for API endpoints
 
-[https://documenter.getpostman.com/view/11560803/TzK16aZA](https://documenter.getpostman.com/view/11560803/TzK16aZA)
+[https://documenter.getpostman.com/view/11560803/U16nKQ4G](https://documenter.getpostman.com/view/11560803/U16nKQ4G)
 
 
