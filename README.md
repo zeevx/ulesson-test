@@ -20,11 +20,11 @@
 - clone repository and cd into it
 - run composer install
 - run cp .env.example .env
-- configure your DB correctly in the .env file
+- configure your DB(mysql) correctly (just use DB_NAME as ulesson) in the .env file
 - run php artisan key:generate
 - php artisan migrate
 - run php artisan serve - url = http://127.0.0.1:8080
-- To test run composer test
+- To test, correctly configure the phpunit.xml (just use DB_NAME as ulesson ) then run composer test
 
 
 ### Documentation for API endpoints
