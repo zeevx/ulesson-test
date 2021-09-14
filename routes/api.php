@@ -20,8 +20,8 @@ Route::group(['prefix' => 'topic'],function () {
     Route::delete('/delete/{id}', ['App\Http\Controllers\Api\TopicController', 'delete']);
 });
 
-Route::get('/subscribers/{topic}', ['App\Http\Controllers\Api\SubscriptionController', 'subscribers']);
 Route::post('/subscribe/{topic}', ['App\Http\Controllers\Api\SubscriptionController', 'subscribe']);
+Route::get('/subscribers/{topic}', ['App\Http\Controllers\Api\SubscriptionController', 'subscribers']);
 Route::delete('/unsubscribe/{topic}', ['App\Http\Controllers\Api\SubscriptionController', 'unsubscribe']);
 
 
